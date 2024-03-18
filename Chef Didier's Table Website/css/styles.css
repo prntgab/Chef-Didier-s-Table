@@ -640,6 +640,7 @@ progress {
   padding-left: calc(var(--bs-gutter-x) * 0.5);
   margin-right: auto;
   margin-left: auto;
+  
 }
 
 @media (min-width: 576px) {
@@ -10862,6 +10863,7 @@ p {
 .page-section {
   margin-top: 5rem;
   margin-bottom: 5rem;
+  
 }
 
 .section-heading {
@@ -10869,7 +10871,7 @@ p {
 }
 
 .bgcolor{
-  background-color: lightblue;
+  background-color: #acc4fa;
 }
 .section-heading .section-heading-upper {
   display: block;
@@ -10942,12 +10944,13 @@ p {
 .cta {
   padding-top: 5rem;
   padding-bottom: 5rem;
-  background-color: rgba(230, 167, 86, 0.9);
+  background-color: rgba(0, 48, 54, 0.8); /*#acc4fa*/
 }
 .cta .cta-inner {
   position: relative;
   padding: 3rem;
   margin: 0.5rem;
+  background-color: lightblue;
 }
 .cta .cta-inner:before {
   border-radius: 0.5rem;
@@ -10959,14 +10962,17 @@ p {
   right: -0.5rem;
   border: 0.25rem solid rgba(255, 255, 255, 0.85);
   z-index: -1;
+  
 }
 
 .footer {
-  background-color: rgba(47, 23, 15, 0.9);
+  background-color: #b58b43;
 }
 
 .intro {
   position: relative;
+  
+  
 }
 @media (min-width: 992px) {
   .intro .intro-img {
@@ -10978,6 +10984,7 @@ p {
     width: 60%;
     margin-top: 3rem;
     position: absolute;
+    background-color: lightblue;
   }
   .intro .intro-text .intro-button {
     width: 100%;
@@ -10985,6 +10992,7 @@ p {
     position: absolute;
     bottom: -2rem;
   }
+ 
 }
 @media (min-width: 1200px) {
   .intro .intro-text {
