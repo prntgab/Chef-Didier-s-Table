@@ -11042,3 +11042,16 @@ p {
 .address strong {
   font-size: 1.2rem;
 }
+
+.contact-container{
+  background-color: red;
+}
+.contact-upper{
+  font-size: 4rem;
+  font-weight: 100;
+
+}
+.contact-lower{
+  font-size: 2em;
+  font-weight: 500;
+}
